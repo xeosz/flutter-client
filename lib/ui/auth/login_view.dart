@@ -267,8 +267,8 @@ class _LoginState extends State<LoginView> {
         _oneTimePasswordController.text.isNotEmpty;
 
     final ThemeData themeData = Theme.of(context);
-    final TextStyle aboutTextStyle = themeData.textTheme.body2;
-    final TextStyle linkStyle = themeData.textTheme.body2
+    final TextStyle aboutTextStyle = themeData.textTheme.bodyText2;
+    final TextStyle linkStyle = themeData.textTheme.bodyText2
         .copyWith(color: convertHexStringToColor(kDefaultAccentColor));
     //final showHostedOptions = viewModel.authState.isHosted || !kIsWeb;
     final showHostedOptions = !kReleaseMode;
