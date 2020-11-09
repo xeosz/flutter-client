@@ -148,7 +148,7 @@ class MultiSelectListState extends State<MultiSelectList> {
                               ? lookupOption(option)
                               : columnTitle,
                           textAlign: TextAlign.left,
-                          style: Theme.of(context).textTheme.headline6,
+                          style: Theme.of(context).textTheme.headline,
                         ),
                       ),
                       IconButton(

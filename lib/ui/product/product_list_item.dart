@@ -74,11 +74,11 @@ class ProductListItem extends StatelessWidget {
               Expanded(
                 child: Text(
                   product.productKey,
-                  style: Theme.of(context).textTheme.headline6,
+                  style: Theme.of(context).textTheme.headline,
                 ),
               ),
               Text(formatNumber(product.price, context),
-                  style: Theme.of(context).textTheme.headline6),
+                  style: Theme.of(context).textTheme.headline),
             ],
           ),
         ),

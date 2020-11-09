@@ -234,8 +234,8 @@ class MainScreen extends StatelessWidget {
 
               return false;
             },
-            child: FocusTraversalGroup(
-              policy: WidgetOrderTraversalPolicy(),
+            child: DefaultFocusTraversal(
+              policy: WidgetOrderFocusTraversalPolicy(),
               child: Row(children: <Widget>[
                 if (prefState.showMenu) ...[
                   MenuDrawerBuilder(),

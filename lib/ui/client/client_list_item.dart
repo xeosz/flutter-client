@@ -78,11 +78,11 @@ class ClientListItem extends StatelessWidget {
               Expanded(
                 child: Text(
                   client.displayName,
-                  style: Theme.of(context).textTheme.headline6,
+                  style: Theme.of(context).textTheme.headline,
                 ),
               ),
               Text(formatNumber(client.balance, context, clientId: client.id),
-                  style: Theme.of(context).textTheme.headline6),
+                  style: Theme.of(context).textTheme.headline),
             ],
           ),
         ),

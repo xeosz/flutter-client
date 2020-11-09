@@ -375,13 +375,13 @@ class _EntityListTile extends StatelessWidget {
         children: <Widget>[
           Expanded(
             child: Text(entity.listDisplayName,
-                style: Theme.of(context).textTheme.headline6),
+                style: Theme.of(context).textTheme.headline),
           ),
           entity.listDisplayAmount != null
               ? Text(
                   formatNumber(entity.listDisplayAmount, context,
                       formatNumberType: entity.listDisplayAmountType),
-                  style: Theme.of(context).textTheme.headline6)
+                  style: Theme.of(context).textTheme.headline)
               : Container(),
         ],
       ),
